@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dort_Renk_Uygulamasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hAc-zJ-QKY">
+                                <rect key="frame" x="0.0" y="44" width="207" height="409"/>
+                                <color key="backgroundColor" red="0.99646928479999997" green="1" blue="0.51847462860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CL7-JU-Z9e">
+                                <rect key="frame" x="207" y="44" width="207" height="409"/>
+                                <color key="backgroundColor" red="1" green="0.13182058469999999" blue="0.00033646567799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nU0-yh-AyB">
+                                <rect key="frame" x="0.0" y="453" width="207" height="409"/>
+                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qll-Hy-GRq">
+                                <rect key="frame" x="207" y="453" width="207" height="409"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qll-Hy-GRq" firstAttribute="leading" secondItem="nU0-yh-AyB" secondAttribute="trailing" id="4JX-YC-BF8"/>
+                            <constraint firstItem="qll-Hy-GRq" firstAttribute="top" secondItem="CL7-JU-Z9e" secondAttribute="bottom" id="9Mw-wM-Gel"/>
+                            <constraint firstItem="nU0-yh-AyB" firstAttribute="top" secondItem="hAc-zJ-QKY" secondAttribute="bottom" id="B5C-W8-HGf"/>
+                            <constraint firstItem="qll-Hy-GRq" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.5" id="EA7-16-pb1"/>
+                            <constraint firstItem="CL7-JU-Z9e" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.5" id="HRc-ZH-irt"/>
+                            <constraint firstItem="nU0-yh-AyB" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.5" id="JCd-Af-iqz"/>
+                            <constraint firstItem="CL7-JU-Z9e" firstAttribute="leading" secondItem="hAc-zJ-QKY" secondAttribute="trailing" id="Q4l-8j-f70"/>
+                            <constraint firstItem="CL7-JU-Z9e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VSg-Gf-axQ"/>
+                            <constraint firstItem="hAc-zJ-QKY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="i9D-l5-J7p"/>
+                            <constraint firstItem="hAc-zJ-QKY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ihQ-w3-aU1"/>
+                            <constraint firstItem="nU0-yh-AyB" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="ktH-Pe-W8W"/>
+                            <constraint firstItem="CL7-JU-Z9e" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="loG-LQ-aTH"/>
+                            <constraint firstItem="hAc-zJ-QKY" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.5" id="mf0-XT-Jbp"/>
+                            <constraint firstItem="nU0-yh-AyB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mxo-6d-bCz"/>
+                            <constraint firstItem="hAc-zJ-QKY" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="pqL-aC-b7P"/>
+                            <constraint firstItem="qll-Hy-GRq" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="yUV-WW-hEF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
