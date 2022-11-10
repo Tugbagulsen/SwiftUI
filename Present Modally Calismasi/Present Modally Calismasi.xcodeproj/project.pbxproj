@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79E0DB22291CFBB400F86A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E0DB21291CFBB400F86A72 /* AppDelegate.swift */; };
+		79E0DB24291CFBB400F86A72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E0DB23291CFBB400F86A72 /* SceneDelegate.swift */; };
+		79E0DB26291CFBB400F86A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E0DB25291CFBB400F86A72 /* ViewController.swift */; };
+		79E0DB29291CFBB400F86A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E0DB27291CFBB400F86A72 /* Main.storyboard */; };
+		79E0DB2B291CFBB500F86A72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E0DB2A291CFBB500F86A72 /* Assets.xcassets */; };
+		79E0DB2E291CFBB500F86A72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E0DB2C291CFBB500F86A72 /* LaunchScreen.storyboard */; };
+		79E0DB39291CFBB500F86A72 /* Present_Modally_CalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E0DB38291CFBB500F86A72 /* Present_Modally_CalismasiTests.swift */; };
+		79E0DB44291CFBB500F86A72 /* Present_Modally_CalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E0DB43291CFBB500F86A72 /* Present_Modally_CalismasiUITests.swift */; };
+		79E0DB55291CFD3000F86A72 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E0DB54291CFD3000F86A72 /* ViewController2.swift */; };
+		79E0DB5A291CFD5600F86A72 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E0DB59291CFD5600F86A72 /* ViewController3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E0DB35291CFBB500F86A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E0DB16291CFBB400F86A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E0DB1D291CFBB400F86A72;
+			remoteInfo = "Present Modally Calismasi";
+		};
+		79E0DB40291CFBB500F86A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E0DB16291CFBB400F86A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E0DB1D291CFBB400F86A72;
+			remoteInfo = "Present Modally Calismasi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79E0DB1E291CFBB400F86A72 /* Present Modally Calismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Present Modally Calismasi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E0DB21291CFBB400F86A72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79E0DB23291CFBB400F86A72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79E0DB25291CFBB400F86A72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79E0DB28291CFBB400F86A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79E0DB2A291CFBB500F86A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79E0DB2D291CFBB500F86A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79E0DB2F291CFBB500F86A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E0DB34291CFBB500F86A72 /* Present Modally CalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Present Modally CalismasiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E0DB38291CFBB500F86A72 /* Present_Modally_CalismasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Present_Modally_CalismasiTests.swift; sourceTree = "<group>"; };
+		79E0DB3A291CFBB500F86A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E0DB3F291CFBB500F86A72 /* Present Modally CalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Present Modally CalismasiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E0DB43291CFBB500F86A72 /* Present_Modally_CalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Present_Modally_CalismasiUITests.swift; sourceTree = "<group>"; };
+		79E0DB45291CFBB500F86A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E0DB54291CFD3000F86A72 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		79E0DB59291CFD5600F86A72 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E0DB1B291CFBB400F86A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E0DB31291CFBB500F86A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E0DB3C291CFBB500F86A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E0DB15291CFBB400F86A72 = {
+			isa = PBXGroup;
+			children = (
+				79E0DB20291CFBB400F86A72 /* Present Modally Calismasi */,
+				79E0DB37291CFBB500F86A72 /* Present Modally CalismasiTests */,
+				79E0DB42291CFBB500F86A72 /* Present Modally CalismasiUITests */,
+				79E0DB1F291CFBB400F86A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E0DB1F291CFBB400F86A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E0DB1E291CFBB400F86A72 /* Present Modally Calismasi.app */,
+				79E0DB34291CFBB500F86A72 /* Present Modally CalismasiTests.xctest */,
+				79E0DB3F291CFBB500F86A72 /* Present Modally CalismasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E0DB20291CFBB400F86A72 /* Present Modally Calismasi */ = {
+			isa = PBXGroup;
+			children = (
+				79E0DB21291CFBB400F86A72 /* AppDelegate.swift */,
+				79E0DB23291CFBB400F86A72 /* SceneDelegate.swift */,
+				79E0DB25291CFBB400F86A72 /* ViewController.swift */,
+				79E0DB27291CFBB400F86A72 /* Main.storyboard */,
+				79E0DB2A291CFBB500F86A72 /* Assets.xcassets */,
+				79E0DB2C291CFBB500F86A72 /* LaunchScreen.storyboard */,
+				79E0DB2F291CFBB500F86A72 /* Info.plist */,
+				79E0DB54291CFD3000F86A72 /* ViewController2.swift */,
+				79E0DB59291CFD5600F86A72 /* ViewController3.swift */,
+			);
+			path = "Present Modally Calismasi";
+			sourceTree = "<group>";
+		};
+		79E0DB37291CFBB500F86A72 /* Present Modally CalismasiTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E0DB38291CFBB500F86A72 /* Present_Modally_CalismasiTests.swift */,
+				79E0DB3A291CFBB500F86A72 /* Info.plist */,
+			);
+			path = "Present Modally CalismasiTests";
+			sourceTree = "<group>";
+		};
+		79E0DB42291CFBB500F86A72 /* Present Modally CalismasiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79E0DB43291CFBB500F86A72 /* Present_Modally_CalismasiUITests.swift */,
+				79E0DB45291CFBB500F86A72 /* Info.plist */,
+			);
+			path = "Present Modally CalismasiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E0DB1D291CFBB400F86A72 /* Present Modally Calismasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E0DB48291CFBB500F86A72 /* Build configuration list for PBXNativeTarget "Present Modally Calismasi" */;
+			buildPhases = (
+				79E0DB1A291CFBB400F86A72 /* Sources */,
+				79E0DB1B291CFBB400F86A72 /* Frameworks */,
+				79E0DB1C291CFBB400F86A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Present Modally Calismasi";
+			productName = "Present Modally Calismasi";
+			productReference = 79E0DB1E291CFBB400F86A72 /* Present Modally Calismasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E0DB33291CFBB500F86A72 /* Present Modally CalismasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E0DB4B291CFBB500F86A72 /* Build configuration list for PBXNativeTarget "Present Modally CalismasiTests" */;
+			buildPhases = (
+				79E0DB30291CFBB500F86A72 /* Sources */,
+				79E0DB31291CFBB500F86A72 /* Frameworks */,
+				79E0DB32291CFBB500F86A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E0DB36291CFBB500F86A72 /* PBXTargetDependency */,
+			);
+			name = "Present Modally CalismasiTests";
+			productName = "Present Modally CalismasiTests";
+			productReference = 79E0DB34291CFBB500F86A72 /* Present Modally CalismasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79E0DB3E291CFBB500F86A72 /* Present Modally CalismasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E0DB4E291CFBB500F86A72 /* Build configuration list for PBXNativeTarget "Present Modally CalismasiUITests" */;
+			buildPhases = (
+				79E0DB3B291CFBB500F86A72 /* Sources */,
+				79E0DB3C291CFBB500F86A72 /* Frameworks */,
+				79E0DB3D291CFBB500F86A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E0DB41291CFBB500F86A72 /* PBXTargetDependency */,
+			);
+			name = "Present Modally CalismasiUITests";
+			productName = "Present Modally CalismasiUITests";
+			productReference = 79E0DB3F291CFBB500F86A72 /* Present Modally CalismasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E0DB16291CFBB400F86A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					79E0DB1D291CFBB400F86A72 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					79E0DB33291CFBB500F86A72 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 79E0DB1D291CFBB400F86A72;
+					};
+					79E0DB3E291CFBB500F86A72 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 79E0DB1D291CFBB400F86A72;
+					};
+				};
+			};
+			buildConfigurationList = 79E0DB19291CFBB400F86A72 /* Build configuration list for PBXProject "Present Modally Calismasi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E0DB15291CFBB400F86A72;
+			productRefGroup = 79E0DB1F291CFBB400F86A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E0DB1D291CFBB400F86A72 /* Present Modally Calismasi */,
+				79E0DB33291CFBB500F86A72 /* Present Modally CalismasiTests */,
+				79E0DB3E291CFBB500F86A72 /* Present Modally CalismasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E0DB1C291CFBB400F86A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E0DB2E291CFBB500F86A72 /* LaunchScreen.storyboard in Resources */,
+				79E0DB2B291CFBB500F86A72 /* Assets.xcassets in Resources */,
+				79E0DB29291CFBB400F86A72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E0DB32291CFBB500F86A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E0DB3D291CFBB500F86A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E0DB1A291CFBB400F86A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E0DB5A291CFD5600F86A72 /* ViewController3.swift in Sources */,
+				79E0DB26291CFBB400F86A72 /* ViewController.swift in Sources */,
+				79E0DB55291CFD3000F86A72 /* ViewController2.swift in Sources */,
+				79E0DB22291CFBB400F86A72 /* AppDelegate.swift in Sources */,
+				79E0DB24291CFBB400F86A72 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E0DB30291CFBB500F86A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E0DB39291CFBB500F86A72 /* Present_Modally_CalismasiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E0DB3B291CFBB500F86A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E0DB44291CFBB500F86A72 /* Present_Modally_CalismasiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E0DB36291CFBB500F86A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E0DB1D291CFBB400F86A72 /* Present Modally Calismasi */;
+			targetProxy = 79E0DB35291CFBB500F86A72 /* PBXContainerItemProxy */;
+		};
+		79E0DB41291CFBB500F86A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E0DB1D291CFBB400F86A72 /* Present Modally Calismasi */;
+			targetProxy = 79E0DB40291CFBB500F86A72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79E0DB27291CFBB400F86A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E0DB28291CFBB400F86A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79E0DB2C291CFBB500F86A72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E0DB2D291CFBB500F86A72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E0DB46291CFBB500F86A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79E0DB47291CFBB500F86A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E0DB49291CFBB500F86A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Present Modally Calismasi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Present-Modally-Calismasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79E0DB4A291CFBB500F86A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Present Modally Calismasi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Present-Modally-Calismasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79E0DB4C291CFBB500F86A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Present Modally CalismasiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Present-Modally-CalismasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Present Modally Calismasi.app/Present Modally Calismasi";
+			};
+			name = Debug;
+		};
+		79E0DB4D291CFBB500F86A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Present Modally CalismasiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Present-Modally-CalismasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Present Modally Calismasi.app/Present Modally Calismasi";
+			};
+			name = Release;
+		};
+		79E0DB4F291CFBB500F86A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Present Modally CalismasiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Present-Modally-CalismasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Present Modally Calismasi";
+			};
+			name = Debug;
+		};
+		79E0DB50291CFBB500F86A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Present Modally CalismasiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Present-Modally-CalismasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Present Modally Calismasi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E0DB19291CFBB400F86A72 /* Build configuration list for PBXProject "Present Modally Calismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E0DB46291CFBB500F86A72 /* Debug */,
+				79E0DB47291CFBB500F86A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E0DB48291CFBB500F86A72 /* Build configuration list for PBXNativeTarget "Present Modally Calismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E0DB49291CFBB500F86A72 /* Debug */,
+				79E0DB4A291CFBB500F86A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E0DB4B291CFBB500F86A72 /* Build configuration list for PBXNativeTarget "Present Modally CalismasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E0DB4C291CFBB500F86A72 /* Debug */,
+				79E0DB4D291CFBB500F86A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E0DB4E291CFBB500F86A72 /* Build configuration list for PBXNativeTarget "Present Modally CalismasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E0DB4F291CFBB500F86A72 /* Debug */,
+				79E0DB50291CFBB500F86A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E0DB16291CFBB400F86A72 /* Project object */;
+}
