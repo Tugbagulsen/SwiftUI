@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Kullanici_Etkilesim_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXo-pD-Dsq">
+                                <rect key="frame" x="177.5" y="163" width="59" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQf-yI-bJV">
+                                <rect key="frame" x="146.5" y="285" width="121" height="30"/>
+                                <state key="normal" title="Basit Alert Göster"/>
+                                <connections>
+                                    <action selector="basitAlertGoster:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fVj-ad-gtM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pR6-jF-KSZ">
+                                <rect key="frame" x="138" y="433" width="138" height="30"/>
+                                <state key="normal" title="Action Sheet Göster"/>
+                                <connections>
+                                    <action selector="actionSheetGoster:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vu4-gb-LuB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sI7-hV-fdD">
+                                <rect key="frame" x="148" y="355" width="118" height="30"/>
+                                <state key="normal" title="Özel Alert Göster"/>
+                                <connections>
+                                    <action selector="ozelAlertGoster:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BfY-tb-jgx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sI7-hV-fdD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2CX-hg-Jcs"/>
+                            <constraint firstItem="wXo-pD-Dsq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3eb-SL-opX"/>
+                            <constraint firstItem="pR6-jF-KSZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A1c-9H-e4T"/>
+                            <constraint firstItem="ZQf-yI-bJV" firstAttribute="top" secondItem="wXo-pD-Dsq" secondAttribute="bottom" constant="92" id="Ka8-YN-YVK"/>
+                            <constraint firstItem="sI7-hV-fdD" firstAttribute="top" secondItem="ZQf-yI-bJV" secondAttribute="bottom" constant="40" id="OKG-hX-lcI"/>
+                            <constraint firstItem="ZQf-yI-bJV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bZz-DC-Ilb"/>
+                            <constraint firstItem="wXo-pD-Dsq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="119" id="huA-bQ-ILy"/>
+                            <constraint firstItem="pR6-jF-KSZ" firstAttribute="top" secondItem="sI7-hV-fdD" secondAttribute="bottom" constant="48" id="oqy-gy-qSs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelSonuc" destination="wXo-pD-Dsq" id="Ryg-FV-9qo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
